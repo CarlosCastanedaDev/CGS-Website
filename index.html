@@ -503,6 +503,12 @@
         align-items: center;
         justify-content: space-between;
       }
+      .unit-card.occupied .unit-footer {
+        justify-content: flex-end;
+      }
+      .unit-card.occupied .unit-rent {
+        display: none;
+      }
       .unit-rent {
         font-family: "Cormorant Garamond", serif;
         font-size: 1.6rem;
@@ -971,7 +977,7 @@
         </div>
         <div class="units-grid">
           <!-- Unit 1 -->
-          <div class="unit-card">
+          <div class="unit-card occupied">
             <div class="unit-body">
               <div class="unit-header">
                 <div class="unit-number">Unit 1 · First Floor</div>
@@ -1020,7 +1026,7 @@
           </div>
 
           <!-- Unit 2 -->
-          <div class="unit-card">
+          <div class="unit-card occupied">
             <div class="unit-body">
               <div class="unit-header">
                 <div class="unit-number">Unit 2 · Second Floor</div>
@@ -1080,7 +1086,7 @@
         </div>
         <div class="units-grid">
           <!-- Unit G -->
-          <div class="unit-card">
+          <div class="unit-card occupied">
             <div class="unit-body">
               <div class="unit-header">
                 <div class="unit-number">Unit G · Ground Floor</div>
@@ -1126,7 +1132,7 @@
           </div>
 
           <!-- Unit 1 -->
-          <div class="unit-card">
+          <div class="unit-card occupied">
             <div class="unit-body">
               <div class="unit-header">
                 <div class="unit-number">Unit 1 · First Floor</div>
